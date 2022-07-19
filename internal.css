@@ -59,20 +59,29 @@ img {
 #sect-two-first-child{
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 #sect-two-second-child{
     display:flex;
-    
+    justify-content:space-between;
+    padding: 20px;
 }
 
 #sect-two-left{
-    margin-left:;
+    margin-right:20px;
 
 }
-#sect-two-right{
-    margin-right: ;
+/* #sect-two-right{
+    margin-right: 20px;
+} */
+.nonso{
+    background-color: white;
+    padding: 20px;
 }
+.sec-two{
+    background-color: lightskyblue;
 
+}
 
 
 
