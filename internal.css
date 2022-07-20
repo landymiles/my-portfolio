@@ -23,32 +23,32 @@
 .active {
     color: #FF6464;
 }
-
-#left-section #rightSection {
-    padding: 50px 0;
-    width: 50%;
-    display: flex;
-}
-
-#rightSection img {
-    width: 250px;
-    height: 250px;
-}
-
 .sect-one {
     padding: 0 40px;
     display: flex;
+    justify-content: end;
+    
 }
-
-img {
-    border-radius: 500px;
-    padding: 50%
+ #right-section {
+    /* padding: 50px 0; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 #left-section {
-    padding: 100px 0px;
-    margin-right: 50px;
+    /* padding: 50px 0; */
+    /* display: flex; */
+    width: 50%;
 }
+#right-section > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* padding: 50% */
+}
+
+
 
 #nonso {
     background-color: #FF6464;
@@ -76,12 +76,36 @@ img {
 } */
 .nonso{
     background-color: white;
-    padding: 20px;
-}
-.sec-two{
-    background-color: lightskyblue;
+    width:60%;
 
 }
+.sec-two{
+    background-color: lightskyblue; 
+}
+.life{
+    display:flex;
+
+}
+.peace{
+    display:flex;
+}
+.fresh{
+margin-bottom: 30px;
+}
+ 
+.something{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
