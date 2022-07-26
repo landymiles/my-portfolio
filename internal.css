@@ -51,8 +51,8 @@
 
 
 #nonso {
-    background-color: #FF6464;
-    color: white;
+    background-color:#FF6464;
+    color:white;
     border-style: none;
     padding: 20px;
 }
@@ -69,18 +69,22 @@
 
 #sect-two-left{
     margin-right:20px;
+    padding-left: 50px;
+    margin-bottom: 70px;
 
 }
-/* #sect-two-right{
+#sect-two-right{
     margin-right: 20px;
-} */
+    padding-left: 50px;
+    margin-bottom: 70px;
+} 
 .nonso{
     background-color: white;
     width:60%;
-
+    display 
 }
 .sec-two{
-    background-color: lightskyblue; 
+    background-color:  lightblue;
 }
 .life{
     display:flex;
@@ -98,7 +102,53 @@ margin-bottom: 30px;
     margin-right: 20px;
 }
 
+.sect-three>p {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 20px 0;
+}
 
+.sect-three>div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 20px 0;
+  }
+
+  .sect-three>div>div>:nth-child(1) {
+    width:auto
+  }
+
+  .sect-three>div>div:nth-child(2) {
+    margin-inline-start: 2rem;
+    flex-grow: 1;
+    width: auto;
+  }
+
+  .sect-three-date {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+  }
+
+  .sect-three>div p{
+    margin: 0;
+  }
+
+  .sect-three-date>p:nth-child(1) {
+    background: #142850;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 0px 13px;
+    margin-right: 20px;
+  }
+.m{
+    width: 200px;
+    height: 200px;
+}
 
 
 
